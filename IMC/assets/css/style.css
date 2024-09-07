@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: rgb(66, 10, 129);
+    --primary-color-mid: rgb(54, 9, 105);
+    --primary-color-dark: rgb(40, 11, 73);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1{
+    text-align: center;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-evenly;
+}
+
+form input,
+form label,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form input{
+    padding: 5px 10px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+    border-radius: 1px;
+  }
+
+form button{
+    height: 35px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--primary-color-mid);
+}
+
+form button:focus {
+    background-color: var(--primary-color-dark);
+}
+
+.set-green{
+    background-color: #07af07;
+    padding: 5px;
+}
+
+.set-yellow{
+    background-color: #ffff00;
+    padding: 5px;
+}
+
+.set-red{
+    background-color: #ff0000;
+    padding: 5px;
+}
