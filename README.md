@@ -1,1 +1,1 @@
-I use this repository to save my JS learning archives.
+I use this repository to save my JS and TypeScript learning archives.
